@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F8F8FF;
+    font-size: 120%;
+}
+
+header, footer{
+    width: 40%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #86b6c2;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+header *{
+    display: inline;
+}
+
+header h1{
+    display: block;
+}
+
+main, main form, .bestsellers, .top-rated, .limited-offer{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.home-form{
+    margin: 0 0 0 10px;
+    width: 0;
+    border: none;
+}
+
+.home-form input{
+    text-align: left;
+}
+
+.bestsellers, .top-rated, .limited-offer{
+    border-bottom: none;
+}
+
+.bestsellers div, .top-rated div, .limited-offer div, main section div{
+    margin-bottom: 20px;
+}
+
+main .title{
+    background: #86b6c2;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+main p a{
+    display: block;
+    width: 20%;
+}
+
+.input-group{
+    margin: 10px 0;
+}
+
+.input-group label{
+    display: block;
+}
+
+.input-group input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+footer{
+    width: 100%;
+}
+
+footer form input{
+    width: 40%;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #86b6c2;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+footer .btn{
+    color: black;
+    background-color: white;
+    width: 10%;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
