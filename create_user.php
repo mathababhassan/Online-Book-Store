@@ -5,24 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create User</title>
-	<link rel="stylesheet" href="../../style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-        <h1 class="logo">Bookan</h1>
-        <form action="#">
-            <label>Search</label>
-                <input type="text">
-        </form>
-
-        <nav>
-            <a href="../../cart.php">Cart</a>
-			<a href="../../home.php">Home</a>
-            <a href="../../books.php">Books</a>
-            <a href="../../login.php">Login</a>
-            <a href="../../contact.php">Contact Us</a>
-        </nav>
-
+    <?php requre("header.php") ?>
+    <header>
         <h2>Admin - Create User</h2>
     </header>
 
@@ -62,7 +49,7 @@
 			</section>
         </form>
 
-		<?php require("../../footer.php") ?>
+		<?php require("footer.php") ?>
     </main>
 </body>
 </html>
